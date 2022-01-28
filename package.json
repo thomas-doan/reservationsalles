@@ -1,0 +1,23 @@
+{
+    "name": "reservation-salles",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass -w ./public/scss:./public/css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hugo-chabert/reservation-salles.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hugo-chabert/reservation-salles/issues"
+    },
+    "homepage": "https://github.com/hugo-chabert/reservation-salles#readme",
+    "dependencies": {
+        "sass": "^1.49.0"
+    }
+}

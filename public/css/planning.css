@@ -1,0 +1,136 @@
+@import url(root.css);
+@import url(font.css);
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--Background3-);
+  flex-grow: 1;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  margin: 2% 0% 2% 0%;
+}
+
+table td {
+  border: 1px solid var(--Black-);
+  padding: 0.5rem;
+  text-align: center;
+  font-family: Texte;
+  color: var(--White-);
+}
+
+table tr:nth-child(even) {
+  background-color: var(--BackgroundTable1-);
+}
+
+table tr:nth-child(odd) {
+  background-color: var(--BackgroundTable2-);
+}
+
+table td:hover {
+  background-color: var(--BackgroundTableHover-);
+}
+
+table th {
+  border: 1px solid var(--Black-);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  text-align: left;
+  background-color: var(--Base-);
+  color: var(--White-);
+  text-align: center;
+  font-family: Texte;
+  letter-spacing: 0.1875rem;
+}
+
+.reservationTD4, .reservationTD3, .reservationTD2, .reservationTD1 {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.reservationTD1 {
+  color: var(--Sport-);
+}
+
+.reservationTD2 {
+  color: var(--Detente-);
+}
+
+.reservationTD3 {
+  color: var(--Travail-);
+}
+
+.reservationTD4 {
+  color: var(--Evenement-);
+}
+
+.reservationTD:hover {
+  color: var(--Black-);
+}
+
+table tr {
+  height: 4.375rem;
+}
+
+.pagination {
+  display: flex;
+}
+
+main p {
+  color: var(--White-);
+  font-family: Texte;
+  margin-top: 1%;
+}
+
+button {
+  letter-spacing: 2px;
+  width: auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  height: 3.125rem;
+  margin: 0.625rem;
+  cursor: pointer;
+  border: none;
+  font-family: Texte;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
+  box-shadow: inset 0px 3px 5px rgba(255, 255, 255, 0.5), 0px 0px 10px rgba(0, 0, 0, 0.15);
+  background: #020024;
+  background: linear-gradient(45deg, rgba(2, 0, 36, 0) 5%, rgba(255, 255, 255, 0.5) 6%, rgba(255, 255, 255, 0) 9%, rgba(255, 255, 255, 0.5) 10%, rgba(255, 255, 255, 0) 17%, rgba(255, 255, 255, 0.5) 19%, rgba(255, 255, 255, 0) 21%);
+  background-size: 150%;
+  background-position: right;
+  transition: 1s;
+}
+
+button:hover {
+  background-position: left;
+  color: white;
+  box-shadow: inset 0px 3px 5px white, 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+button:focus {
+  outline: none;
+}
+
+td a {
+  text-decoration: none;
+  color: var(--White-);
+}
+
+td a:hover {
+  color: var(--Black-);
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=planning.css.map */
